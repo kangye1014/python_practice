@@ -7,5 +7,5 @@ import  time
 
 def printTime():
     localtime = time.localtime(time.time())
-    print "Local current time :", localtime
+    print "Local current time : ", localtime
     return

@@ -23,6 +23,7 @@ if __name__ == "__main__":
     print __file__
     print Math.add(2,3)
     print DateUtil.printTime()
+    print var_init_ # the global variable
     #data_type.printSplit("hello, kevin")
 else:
     #
