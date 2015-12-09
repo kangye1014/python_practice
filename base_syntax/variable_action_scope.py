@@ -3,6 +3,7 @@
 # added by kangye python27
 
 import data_type
+from utils import *
 
 sex = 20
 author = data_type.author
@@ -20,8 +21,9 @@ if __name__ == "__main__":
     print sex
     print dir()
     print __file__
-
-    data_type.printSplit("hello, kevin")
+    print Math.add(2,3)
+    print DateUtil.printTime()
+    #data_type.printSplit("hello, kevin")
 else:
     #
     print "it is exce by other mouder"
