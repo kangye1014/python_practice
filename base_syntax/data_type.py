@@ -1,5 +1,7 @@
-# added by kangye python27
+#!/usr/bin/python
 # -*- coding: UTF-8 -*-
+# added by kangye python27
+
 def printSplit(str):
     print "---------------字符串相关操作实例----------------------------"
     head, tail = str.split(",")
@@ -102,6 +104,9 @@ def testDictionaryMethod(dictionary_):
     dictionary_.setdefault('name', 'other kevin')
     dictionary_.update({'sex':'woman', 'cailer': 'enginer'})
     print "update dictionary with new dict:", dictionary_
+
+# 申明一个全局变量
+author = 'kangye'
 
 if __name__ == "__main__":
 
